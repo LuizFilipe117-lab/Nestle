@@ -1,0 +1,118 @@
+main{
+  width: 100%;
+  height: 100vh;
+  float: left;
+  background: linear-gradient(180deg, #960d7b, #000);
+}
+.Titulo{
+  width: 100%;
+  height: auto;
+  margin-top: 3vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+#icon{
+  width: 20%;
+  height: auto;
+  aspect-ratio: 1/1;
+  background: #fff;
+  box-shadow: 0px 0px 8px #000;
+  border-radius: 200px;
+  margin-top: 2vh;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+input{
+  width: 60%;
+  height: 7vh;
+  float: left;
+  margin-top: 6vh;
+  margin-left: 5%;
+  border: none;
+  outline: none;
+  text-indent: 6px;
+  border-radius: 12px;
+}
+#status{
+  width: 90%;
+  height: 12vh;
+  float: left;
+  margin-left: 5%;
+  background: #ffffff89;
+  margin-top: 4vh;
+  border: 1px solid #ffffffbf;
+  border-radius: 12px;
+  box-shadow: 0 0 6px #fff;
+}
+#status h2{
+  width: 50%;
+  float: left;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2vh;
+  color:#fff;
+}
+#status p{
+   width: 50%;
+  float: left;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 1vh;
+  color:#fff;
+  font-style: italic;
+  color: #ccc;
+}
+#pontos{
+  width: 100%;
+  float: left;
+  color: #fff;
+  text-align: center;
+  margin-top: 4vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+#pontos span{
+  font-weight: bold;
+  color: #ffc1f6;
+}
+#barraVida{
+  width: 90%;
+  height: 2vh;
+  background: yellow;
+  float: left;
+  margin-left: 5%;
+  border-radius: 200px;
+  margin-top: 1vh;
+}
+.acao{
+  width: 40%;
+  height: 7vh;
+  float: left;
+  margin-left: 6.6%;
+  margin-top: 3vh;
+}
+#classeHeroi{
+  width: 100%;
+  float: left;
+  margin-top: 3vh;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.heroi{
+  width: 40%;
+  height: 7vh;
+  float: left;
+  margin-left: 6.6%;
+  margin-top: 3vh;
+}
